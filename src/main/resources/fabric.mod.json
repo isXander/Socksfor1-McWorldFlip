@@ -1,35 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "mcworldflip",
   "version": "${version}",
-  "name": "The name of the mod",
-  "description": "Describe your mod here",
+  "name": "McWorldFlip",
+  "description": "Changes gravity every minute.",
   "authors": [
-    "Your name"
+    "isXander"
   ],
-  "contact": {
-    "homepage": "https://example.com",
-    "issues": "https://github.com/example/example/issues",
-    "sources": "https://github.com/example/example"
-  },
-  "license": "The Unlicense",
-  "icon": "assets/modid/icon.png",
+  "license": "ARR",
   "environment": "*",
   "entrypoints": {
     "main": [
-      {
-        "adapter": "kotlin",
-        "value": "com.author.modid.ModName"
-      }
+      "dev.isxander.mcworldflip.MainEntrypoint"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
   "depends": {
     "fabric": "*",
     "fabricloader": ">=0.12.0",
-    "fabric-language-kotlin": ">=1.7.1+kotlin.1.6.10",
     "minecraft": "1.18.x",
     "java": ">=17"
   }
