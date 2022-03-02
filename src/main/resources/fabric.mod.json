@@ -14,6 +14,9 @@
       "dev.isxander.mcworldflip.MainEntrypoint"
     ]
   },
+  "mixins": [
+    "mcworldflip.mixins.json"
+  ],
   "depends": {
     "fabric": "*",
     "fabricloader": ">=0.12.0",
