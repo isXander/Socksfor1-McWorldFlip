@@ -33,7 +33,7 @@ dependencies {
     modImplementation("net.fabricmc.fabric-api:fabric-api:$fabricVersion")
 
     includeModImplementation("maven.modrinth:gravitychanger:0.3.0")
-    includeModImplementation("me.shedaniel.cloth:cloth-config-fabric:6.1.+") {
+    includeModImplementation("me.shedaniel.cloth:cloth-config-fabric:8.0.+") {
         exclude(group = "net.fabricmc.fabric-api")
     }
 }
